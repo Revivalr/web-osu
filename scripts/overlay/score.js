@@ -251,7 +251,7 @@ define([], function () {
 
         function uploadScore(summary) {
             let xhr = new XMLHttpRequest();
-            let url = "https://localhost:3001";
+            let url = "http://127.0.0.1:3001/";
             url += "?sid=" + encodeURIComponent(summary.sid);
             url += "&bid=" + encodeURIComponent(summary.bid);
             url += "&title=" + encodeURIComponent(summary.title);
